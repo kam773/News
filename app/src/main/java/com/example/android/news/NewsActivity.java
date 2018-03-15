@@ -26,13 +26,13 @@ public class NewsActivity extends AppCompatActivity implements LoaderManager.Loa
     private TextView mEmptyState;
     private NewsAdapter mAdapter;
 
-    private static final String BASE_URL = "https://content.guardianapis.com/search?api-key=2e0fcb70-724d-4219-9b23-e62cc82e1d26";
-    private static final String BUSINESS_URL = "http://content.guardianapis.com/sections?q=business&api-key=2e0fcb70-724d-4219-9b23-e62cc82e1d26";
-    private static final String SPORTS_URL = "http://content.guardianapis.com/sections?q=sports&api-key=2e0fcb70-724d-4219-9b23-e62cc82e1d26";
-    private static final String ENTERTAINMENT_URL = "http://content.guardianapis.com/sections?q=entertainment&api-key=2e0fcb70-724d-4219-9b23-e62cc82e1d26";
-    private static final String TECHNOLOGY_URL = "http://content.guardianapis.com/sections?q=technology&api-key=2e0fcb70-724d-4219-9b23-e62cc82e1d26";
-    private static final String HEALTH_URL = "http://content.guardianapis.com/sections?q=health&api-key=2e0fcb70-724d-4219-9b23-e62cc82e1d26";
-    private static final String SCIENCE_URL = "http://content.guardianapis.com/sections?q=science&api-key=2e0fcb70-724d-4219-9b23-e62cc82e1d26";
+    private static final String BASE_URL = "https://content.guardianapis.com/search?api-key=";
+    private static final String BUSINESS_URL = "http://content.guardianapis.com/sections?q=business&api-key=";
+    private static final String SPORTS_URL = "http://content.guardianapis.com/sections?q=sports&api-key=";
+    private static final String ENTERTAINMENT_URL = "http://content.guardianapis.com/sections?q=entertainment&api-key=";
+    private static final String TECHNOLOGY_URL = "http://content.guardianapis.com/sections?q=technology&api-key=";
+    private static final String HEALTH_URL = "http://content.guardianapis.com/sections?q=health&api-key=";
+    private static final String SCIENCE_URL = "http://content.guardianapis.com/sections?q=science&api-key=";
 
     private static final int NEWS_LOADER_ID = 1;
 
