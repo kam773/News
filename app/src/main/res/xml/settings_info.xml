@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="@string/sp_key_section"
+        android:title="Section"
+        android:summary="Select a section"
+        android:entries="@array/section_names_array"
+        android:entryValues="@array/section_values_array"
+        >
+
+    </ListPreference>
+
+</PreferenceScreen>
